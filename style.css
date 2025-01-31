@@ -37,13 +37,13 @@ nav #nav-bar-2 {
     margin-top: 25px;
 }
 
-#nav-bar-2  ul {
+#nav-bar-2 ul {
     display: flex;
     list-style: none;
     align-items: center;
 }
 
-#nav-bar-2 ul li a{
+#nav-bar-2 ul li a {
     text-decoration: none;
     font-size: 20px;
     color: #ffffff;
@@ -188,8 +188,24 @@ nav #nav-bar-2 {
 
 /*right body ended*/
 
-/*main part && middle box included*/
 
+/* images included for different html code iframe */
+
+.imp-material {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 10px;
+}
+
+.imp-material iframe {
+    width: 700px;
+    height: 870px;
+    box-shadow: 0px 0px 10px #c000ff;
+}
+
+/* end of the images of diffrnt html */
+
+/*main part && middle box included*/
 .main {
     background-color: #d3d3d3;
     box-sizing: border-box;
@@ -272,7 +288,6 @@ nav #nav-bar-2 {
 /* website main content included from here*/
 
 .all-items {
-    margin: 10px 0px 0px 0px;
     box-sizing: border-box;
 }
 
@@ -420,7 +435,7 @@ nav #nav-bar-2 {
     justify-content: center;
 }
 
-#show-more button  {
+#show-more button {
     margin: 40px 0px 35px 0px;
     color: #41081b;
     font-size: 20px;
